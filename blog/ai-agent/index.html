@@ -1,0 +1,674 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>AI-Agent - 株式会社SuperFlow</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dictionary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="株式会社SuperFlow" class="md-header__button md-logo" aria-label="株式会社SuperFlow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            株式会社SuperFlow
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI-Agent
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="株式会社SuperFlow" class="md-nav__button md-logo" aria-label="株式会社SuperFlow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    株式会社SuperFlow
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Blog Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    AI-Agent
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI-Agent
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="dictionary">Dictionary</h1>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AIエージェント</td>
+<td>自律的に思考・計画・行動できるAI。</td>
+</tr>
+<tr>
+<td>自律性（Autonomy）</td>
+<td>人間の指示なしに自分で判断し行動する能力。</td>
+</tr>
+<tr>
+<td>チェーン・オブ・ソート（CoT）</td>
+<td>複雑なタスクを思考のステップに分けて処理する方法。</td>
+</tr>
+<tr>
+<td>Scratchpad</td>
+<td>LLMが使う「思考メモ」。思考の過程（Chain of Thought）を明示するために使う。</td>
+</tr>
+<tr>
+<td>リフレクション（Reflection）</td>
+<td>AIが自分の行動を振り返り、改善案を考えるプロセス。</td>
+</tr>
+<tr>
+<td>計画（Planning）</td>
+<td>ゴールに向けたタスクの段取りを立てること。</td>
+</tr>
+<tr>
+<td>LLM（Large Language Model）</td>
+<td>大規模言語モデル。膨大なテキストを学習したAI。</td>
+</tr>
+<tr>
+<td>Prompt（プロンプト）</td>
+<td>AIに入力する指示文。</td>
+</tr>
+<tr>
+<td>Prompt Engineering</td>
+<td>よりよい応答を得るためのプロンプト設計技術。</td>
+</tr>
+<tr>
+<td>マルチエージェント</td>
+<td>複数のAIエージェントが役割分担して連携する仕組み。</td>
+</tr>
+<tr>
+<td>Tool Use</td>
+<td>AIが外部のツール（Python、Webなど）を利用する機能。</td>
+</tr>
+<tr>
+<td>Code Execution</td>
+<td>AIが実際にコードを実行して結果を確認する能力。</td>
+</tr>
+<tr>
+<td>Web Search Agent</td>
+<td>Web検索を行って外部情報を取得するエージェント。</td>
+</tr>
+<tr>
+<td>RAG（Retrieval-Augmented Generation）</td>
+<td>検索で取得した情報をもとに回答を生成する手法。</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>エージェントが環境に対して実行する操作（API呼び出しなど）。</td>
+</tr>
+<tr>
+<td>Observation</td>
+<td>エージェントが行動後に得る情報（Webの内容、レスポンスなど）。</td>
+</tr>
+<tr>
+<td>Task Decomposition</td>
+<td>大きなタスクを小さなタスクに分ける工程。</td>
+</tr>
+<tr>
+<td>Planning Agent</td>
+<td>計画立案に特化したAIエージェント。</td>
+</tr>
+<tr>
+<td>Executor Agent</td>
+<td>実行専門のAIエージェント。指示に基づき動作。</td>
+</tr>
+<tr>
+<td>Feedback Loop</td>
+<td>出力結果を再評価し、改善サイクルを回すこと。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="appendix">Appendix</h2>
+<pre><code>35 + 47 の答えは何ですか？
+
+# Scratchpad:
+ステップ1: 30 + 40 = 70  
+ステップ2: 5 + 7 = 12  
+ステップ3: 70 + 12 = 82  
+
+答え: 82
+</code></pre>
+<h1 id="explanation-ai">Explanation - なぜAIエージェントはコーディングできるのか？</h1>
+<h2 id="1llm">🧠 第1層：LLMはなぜコードを理解できるのか？</h2>
+<ul>
+<li>LLM（大規模言語モデル）は、人間が書いた<strong>大量のコードと自然言語</strong>を学習している。</li>
+<li>学習データには、<strong>関数名、構文、パターン、コメント</strong>などがセットで含まれている。</li>
+</ul>
+<p>そのため、以下のような変換が可能になる：</p>
+<ul>
+<li>✅ 「自然言語の指示」 → 「コードの生成」</li>
+<li>✅ 「コードの読み取り」 → 「自然言語による解説」</li>
+</ul>
+<hr />
+<h2 id="2">🔧 第2層：ツールと組み合わせて「試す→直す」ができる</h2>
+<ul>
+<li>LLMは単にコードを書く能力だけでなく、<strong>書いたコードを実行し、修正する</strong>能力を持ち始めている。</li>
+<li>これはLLM単体では不可能だが、<strong>エージェントとしてツールを呼び出す（Tool Use）</strong>ことで実現されている。</li>
+</ul>
+<h3 id="_1">例：試行ループ</h3>
+<ol>
+<li>Pythonのコードを書く  </li>
+<li>Shellでコードを実行する  </li>
+<li>エラーが出たらログを読む  </li>
+<li>修正コードを提案・再実行する</li>
+</ol>
+<p>このループにより、<strong>精度が高く、継続的に改善されるコーディング能力</strong>を獲得できる。</p>
+<hr />
+<h2 id="3">🤖 第3層：エージェントは「目的に向けて自律的に行動」できる</h2>
+<p>LLMが一度コードを生成するだけでなく、次のような「人間的な思考プロセス」を模倣できるようになってきた：</p>
+<ul>
+<li><strong>Task Decomposition（タスク分割）</strong></li>
+<li><strong>Planning（計画）</strong></li>
+<li><strong>Reflection / Feedback Loop（振り返りと改善）</strong></li>
+<li><strong>Tool Use（ツール使用）</strong></li>
+<li><strong>Action / Observation（行動と観察）</strong></li>
+</ul>
+<p>これにより、AIエージェントは<strong>「目的に向かって自律的に開発タスクを進める存在」</strong>へと進化している。</p>
+<hr />
+<h1 id="relation">Relation</h1>
+<p><a href="https://mermaid.live/">Visualization Tool</a></p>
+<h2 id="llms">LLMs</h2>
+<pre><code class="language-mermaid">mindmap
+  root((LLM（大規模言語モデル）))
+
+    商用モデル
+      OpenAI
+        GPT-4
+        GPT-4 Turbo
+      Anthropic
+        Claude 3
+      Google
+        Gemini
+      Microsoft（提携）
+        Copilot
+
+    OSSモデル（オープンソース）
+      Meta
+        LLaMA
+        Code Llama
+      Mistral
+        Mistral 7B
+        Mixtral
+      Hugging Face
+      Falcon
+      Nous Hermes
+
+    LLMの応用領域
+      コーディング
+      対話型AI（チャット）
+      ドキュメント要約
+      質問応答（Q&amp;A）
+      検索（RAG）
+      エージェント化
+
+    強化技術
+      ファインチューニング
+      インストラクションチューニング
+      RAG（検索拡張生成）
+      Function Calling
+</code></pre>
+<h2 id="agents">Agents</h2>
+<pre><code class="language-mermaid">mindmap
+  root((コーディングができるAIエージェント))
+
+    構成の基本
+      自律性（Autonomy）
+      エージェントアーキテクチャ
+        シングルエージェント
+        マルチエージェント
+
+    コーディング能力の構成要素
+      Tool Use
+        Code Execution
+        Shell Command
+        Web Search Agent
+      Task Decomposition
+      Planning
+      Reflection
+      Feedback Loop
+      Scratchpad
+      Chain of Thought（CoT）
+      Action / Observation
+
+    代表的なコーディングAIエージェント
+      AutoGen
+        Autogen Studio
+        Function Calling
+        Group Chat（マルチエージェント）
+      CrewAI
+      OpenDevin
+      Devika
+      GPT Engineer
+      Smol Developer
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
