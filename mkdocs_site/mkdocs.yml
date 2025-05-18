@@ -1,0 +1,9 @@
+site_name: 株式会社SuperFlow
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Blog:
+      - Blog Home: blog/index.md
+      - AI-Agent: blog/ai-agent.md
