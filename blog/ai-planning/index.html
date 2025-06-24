@@ -361,12 +361,27 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="重要な問い：なぜプランニングは難しいのか？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       インターフェースの重要性
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      結論：プランニングにおける必要機能は何なのか？
     </span>
   </a>
   
@@ -428,12 +443,27 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="重要な問い：なぜプランニングは難しいのか？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       インターフェースの重要性
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      結論：プランニングにおける必要機能は何なのか？
     </span>
   </a>
   
@@ -467,6 +497,10 @@
 </thead>
 <tbody>
 <tr>
+<td>過程の可視化</td>
+<td>難しいタスクを説いた場合に、中間状態を露出すること。CoTやscratchpadによるアプローチ。</td>
+</tr>
+<tr>
 <td>逐次性</td>
 <td>計画性はなく、「試行錯誤」的に、前回の結果に基づいて今回の行動を決めること。</td>
 </tr>
@@ -487,11 +521,15 @@
 <h2 id="_1">重要な問い：なぜプランニングは難しいのか？</h2>
 <ul>
 <li>複雑な実世界とのミスマッチが起きるから。</li>
-<li>全体計画の再計算も必要だから。（AdaPlanner）</li>
+<li>静的な解としてのプランニングは成立せず、全体計画の動的な再計算も必要だから。（AutoPlan vs AdaPlanner）</li>
 </ul>
-<h2 id="_2">インターフェースの重要性</h2>
+<h3 id="_2">インターフェースの重要性</h3>
 <p>MCPのように、連携が前提となる。
 他のLLMやツールに中継できることが重要。</p>
+<h2 id="_3">結論：プランニングにおける必要機能は何なのか？</h2>
+<p>①局所的なピボットの柔軟性</p>
+<p>②動的な全体計画の再修正の柔軟性</p>
+<p>③集団思考・専門的エージェントとの協調能力</p>
 
 
 
