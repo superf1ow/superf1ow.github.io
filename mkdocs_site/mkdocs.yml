@@ -7,3 +7,4 @@ nav:
   - Blog:
       - Blog Home: blog/index.md
       - AI-Agent: blog/ai-agent.md
+      - Planning: blog/ai-planning.md
