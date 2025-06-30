@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>超流動 – Flow Unstoppable</title>
+    <style>
+        html,body,#gpu {width:100%;height:100%;margin:0;overflow:hidden;}
+        #tagline{
+            position:absolute;inset:0;
+            display:flex;align-items:center;justify-content:center;
+            font:700 4vw/1.2 "Bebas Neue",sans-serif;color:#fff;letter-spacing:.05em;
+            pointer-events:none;user-select:none;text-shadow:0 0 .5em #000;
+        }
+    </style>
+</head>
+<body>
+<canvas id="gpu"></canvas>
+<div id="tagline">超流動とは、常識を超え、<wbr>浸透する知性だ。</div>
+
+<script type="module" src="flow.js"></script>
+</body>
+</html>
